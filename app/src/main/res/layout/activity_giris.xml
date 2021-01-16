@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GirisActivity">
+
+    <ImageView
+        android:id="@+id/imageGiris"
+        android:layout_width="189dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTcGiris"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/et_tc_giris"
+        android:inputType="numberPassword"
+        android:background="@drawable/et_background"
+        android:textSize="16sp"
+        android:maxLength="11"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageGiris" />
+
+    <EditText
+        android:id="@+id/etSifreGiris"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/et_sifre_giris"
+        android:inputType="numberPassword"
+        android:background="@drawable/et_background"
+        android:textSize="16sp"
+        android:maxLength="20"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTcGiris" />
+
+    <TextView
+        android:id="@+id/tvSifremiUnuttum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tv_sifremi_unuttum_giris"
+        android:textColor="@color/lacivert"
+        android:textSize="16sp"
+        android:onClick="sifremiUnuttum"
+        app:layout_constraintEnd_toEndOf="@+id/etSifreGiris"
+        app:layout_constraintTop_toBottomOf="@+id/etSifreGiris" />
+
+    <Button
+        android:id="@+id/btGirisGiris"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/bt_giris_giris"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:onClick="musteriGirisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSifremiUnuttum" />
+
+    <Button
+        android:id="@+id/btYetkiliGirisiGiris"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/bt_yetkili_giris"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:onClick="yetkiliGirisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btGirisGiris" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

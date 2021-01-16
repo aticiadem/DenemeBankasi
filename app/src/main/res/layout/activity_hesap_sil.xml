@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HesapSilActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etHesapNoHesapSil"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Hesap No Giriniz"
+        android:inputType="textPersonName"
+        android:maxLength="12"
+        android:padding="15dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etTCHesapSil"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="T.C Kimlik No. Giriniz"
+        android:inputType="textPersonName"
+        android:maxLength="11"
+        android:padding="15dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btHesabiSil"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Hesabı Sil"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>

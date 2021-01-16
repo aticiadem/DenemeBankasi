@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HesapBilgileriGosterMusteri"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/etIsimSoyisimHesapBilgisi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/etHesapNoHesapBilgisi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/etTCHesapBilgisi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/etDTHesapBilgisi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/etParaHesapBilgisi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

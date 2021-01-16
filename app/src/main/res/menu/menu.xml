@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_para_gonder"
+        android:title="Para Gönder"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_sifre_degis"
+        android:title="Şifre Değiş"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_hesap_bilgileri"
+        android:title="Hesap Bilgileri"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_cikis"
+        android:title="Çıkış Yap"
+        app:showAsAction="never"/>
+</menu>

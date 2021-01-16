@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Deneme Bankasi</string>
+    <string name="et_tc_giris">T.C Kimlik No. Giriniz</string>
+    <string name="et_sifre_giris">Şifre Giriniz</string>
+    <string name="tv_sifremi_unuttum_giris">Şifremi Unuttum</string>
+    <string name="bt_giris_giris">Müşteri Girişi</string>
+    <string name="bt_yetkili_giris">Yetkili Girişi</string>
+    <string name="et_hesapno_sifremi_unuttum">Hesap No Giriniz</string>
+    <string name="et_yenisifre_sifremi_unuttum">Yeni Şifreyi Giriniz</string>
+    <string name="bt_onayla_sifremi_unuttum">Onayla</string>
+    <string name="bt_hesap_ekle_YetkiliGiris">Hesap Ekle</string>
+    <string name="bt_hesap_sil_YetkiliGiris">Hesap Sil</string>
+    <string name="bt_hesap_goster_YetkiliGiris">Hesapları Göster</string>
+    <string name="et_isim_soyisim_HesapEkle">İsim ve Soyisim Giriniz</string>
+    <string name="et_tc_no_HesapEkle">T.C Kimlik No. Giriniz</string>
+    <string name="et_sifre_HesapEkle">Şifre Giriniz</string>
+    <string name="bt_hesap_ekle_HesapEkle">Hesabı Ekle</string>
+</resources>

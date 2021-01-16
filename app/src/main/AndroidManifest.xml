@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adematici.denemebankasi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DenemeBankasi">
+        <activity android:name=".activities.HesapBilgileriGosterMusteri"></activity>
+        <activity android:name=".activities.ParaGonderActivity" />
+        <activity android:name=".activities.HesaplariGosterActivity" />
+        <activity android:name=".activities.HesapSilActivity" />
+        <activity android:name=".activities.HesapEkleActivity" />
+        <activity android:name=".activities.MusteriMainActivity" />
+        <activity android:name=".activities.YetkiliMainActivity" />
+        <activity android:name=".activities.SifremiUnuttumActivity" />
+        <activity android:name=".activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.GirisActivity" />
+    </application>
+
+</manifest>

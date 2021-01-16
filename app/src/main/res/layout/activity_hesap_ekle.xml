@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HesapEkleActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etIsimSoyisimHesapEkle"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/et_background"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:maxLength="25"
+        android:hint="@string/et_isim_soyisim_HesapEkle" />
+
+    <EditText
+        android:id="@+id/etTCHesapEkle"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="@string/et_tc_no_HesapEkle"
+        android:inputType="textPersonName"
+        android:maxLength="11"
+        android:padding="15dp"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/etDTHesapEkle"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Doğum Tarihinizi Giriniz"
+        android:inputType="date"
+        android:maxLength="10"
+        android:padding="15dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etSifreHesapEkle"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_background"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="@string/et_sifre_HesapEkle"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:padding="15dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btHesabiEkle"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/bt_hesap_ekle_HesapEkle"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
