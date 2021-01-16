@@ -1,5 +1,6 @@
 # DenemeBankasi
 - Bu uygulamada SQSLite kullanarak bir banka sistemi yaptım. Temel işlemler yapılabiliyor.
+- Yetkili girişi için her iki alana da 1234 yazarak giriş yapabilirsiniz ve yönetici gibi hesap ekler veya çıkartabilirsiniz.
 - Uygulama Görselleri:
 
 ![1](https://user-images.githubusercontent.com/58858983/104812145-68bf7c00-5811-11eb-8560-224ca7113f5f.jpg)
