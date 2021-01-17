@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="3">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvIsimSoyisim"
+            android:text="İsim ve Soyisim"
+            android:padding="5dip"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tvTC"
+            android:text="T.C Kimlik"
+            android:padding="5dip"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tvPara"
+            android:text="Para Miktarı"
+            android:padding="5dip"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+</TableLayout>
